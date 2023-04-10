@@ -1,0 +1,58 @@
+.wrapper .main_menu ul {
+  padding: 0;
+}
+.wrapper .main_menu ul li a {
+  transition: background 0.2s ease-in-out;
+  color: white;
+}
+.wrapper .main_menu ul li a:hover {
+  background: rgb(43, 0, 62);
+  color: white;
+}
+.wrapper .main_menu ul.menu_dropdown {
+  z-index: 110;
+}
+.wrapper .main_menu ul.menu_dropdown li a {
+  color: black;
+}
+.wrapper .main_menu ul.menu_dropdown li a:hover {
+  background: rgb(43, 0, 62);
+  color: white;
+}
+.wrapper .submenu .logo:hover::after {
+  left: 0;
+}
+.wrapper .sidebar_left {
+  background: black;
+  display: flex;
+  flex-flow: row;
+  overflow: auto;
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  z-index: 20;
+  padding: 10px;
+  gap: 10px;
+}
+.wrapper .sidebar_left .item {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  background: rgb(10, 73, 82);
+  transition: background 0.3s ease-in-out;
+}
+.wrapper .sidebar_left .item:hover {
+  background: #042125;
+}
+.wrapper .sidebar_left .item:after {
+  transition: filter 0.3s ease-in-out;
+}
+.wrapper .middle_area .main_wrapper {
+  align-items: center;
+  margin: 55px 0 0 0;
+}
+.wrapper .sidebar_right {
+  margin: 55px 0 0 0;
+  padding: 10px 10px 25px 0;
+}
