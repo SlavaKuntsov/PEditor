@@ -1,5 +1,4 @@
 .start_page{
-	/* visibility: visible; */
 	z-index: 200;
 	background: white;
 	width: 100%;
@@ -25,12 +24,10 @@
 	cursor: pointer;
 	transition: all .5s ease-in-out;
 }
-
 .start_button:hover{
 	background: black;
 	color: white;
 }
-
 .start_page p{
 	position: absolute;
 	margin: 10px auto;

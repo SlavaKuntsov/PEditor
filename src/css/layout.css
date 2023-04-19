@@ -17,7 +17,7 @@
 
 	grid-template-areas:
 		"submenu submenu submenu"
-		"sidebar_left main sidebar_right";
+		"main sidebar_left sidebar_right";
 }
 .trn{}
 .toggle{

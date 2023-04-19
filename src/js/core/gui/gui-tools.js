@@ -81,6 +81,7 @@ class GUI_tools_class {
 			this.active_tool = saved_tool;
 		}
 
+
 		//left menu
 		for (var i in config.TOOLS) {
 			var item = config.TOOLS[i];
